@@ -8,7 +8,7 @@
 
 Summary:	Personal Information Management (PIM) for KDE
 Summary(ko):	K ╣╔╫╨е╘е╬ х╞╟Ф - PIM (╟Ёюн а╓╨╦ ╟Э╦╝)
-Summary(pl):	Manadzer informacji osobistej (PIM) dla KDE
+Summary(pl):	Program zarz╠dzaj╠cy informacjami osobistymi (PIM) dla KDE
 Summary(ru):	Персональный планировщик (PIM) для KDE
 Summary(uk):	Персональный планувальник (PIM) для KDE
 Name:		kdepim-kroupware
@@ -37,45 +37,45 @@ Obsoletes:	kdepim
 %define         no_install_post_chrpath         1
 
 %description
-kdepim is a collection of Personal Information Management (PIM) tools
-for the K Desktop Enviromnent (KDE).
+kdepim-kroupware is a collection of Personal Information Management
+(PIM) tools for the K Desktop Enviromnent (KDE).
 
 %description -l pl
-kdepim jest jest zestawem aplikacji PIM dla K Desktop Enviromnent
-(KDE).
+kdepim-kroupware jest jest zestawem aplikacji PIM dla K Desktop
+Enviromnent (KDE).
 
 %description -l ru
-kdepim - это набор утилит для управления персональной информацией для
-K Desktop Enviromnent (KDE).
+kdepim-kroupware - это набор утилит для управления персональной
+информацией для K Desktop Enviromnent (KDE).
 
 %description -l uk
-kdepim - це наб╕р утил╕т для керування персональною информац╕╓ю для K
-Desktop Enviromnent (KDE).
+kdepim-kroupware - це наб╕р утил╕т для керування персональною
+информац╕╓ю для K Desktop Enviromnent (KDE).
 
 %package devel
-Summary:	Development files for KDE pim
-Summary(pl):	Pliki nagЁСwkowe do KDE pim
-Summary(uk):	Файли розробки для kdepim
-Summary(ru):	Файлы разработки для kdepim
+Summary:	Development files for kdepim-kroupware
+Summary(pl):	Pliki nagЁСwkowe do kdepim-kroupware
+Summary(uk):	Файли розробки для kdepim-kroupware
+Summary(ru):	Файлы разработки для kdepim-kroupware
 Group:		X11/Development/Libraries
 Provides:	kdepim-devel
 Obsoletes:	kdepim-devel
 
 %description devel
 This package contains header files needed if you wish to build
-applications based on kdepim.
+applications based on kdepim-kroupware.
 
 %description devel -l pl
 Pakiet ten zawiera pliki nagЁСwkowe potzrebne do budowy aplikacji
-bazuj╠cych na kdepim.
+opartych na kdepim-kroupware.
 
 %description devel -l uk
 Цей пакет м╕стить файли заголовк╕в необх╕дн╕ для побудови програм,
-базованих на kdepim.
+базованих на kdepim-kroupware.
 
 %description devel -l ru
 Этот пакет содержит файлы заголовков необходимые для построения
-программ, основанных на kdepim.
+программ, основанных на kdepim-kroupware.
 
 %package kaddressbook
 Summary:	Address Book
