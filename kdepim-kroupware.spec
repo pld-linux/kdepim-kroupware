@@ -66,7 +66,7 @@ This package contains header files needed if you wish to build
 applications based on kdepim-kroupware.
 
 %description devel -l pl
-Pakiet ten zawiera pliki nag³ówkowe potzrebne do budowy aplikacji
+Pakiet ten zawiera pliki nag³ówkowe potrzebne do budowy aplikacji
 opartych na kdepim-kroupware.
 
 %description devel -l uk
