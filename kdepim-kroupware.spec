@@ -26,10 +26,10 @@ BuildRequires:	pilot-link-devel
 BuildRequires:	qt-devel >= 3.1.2
 BuildRequires:	zlib-devel
 Requires:	kdelibs >= 3.1.1
+Provides:	kdepim
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	korganizer
 Obsoletes:	kdepim
-Provides:	kdepim
 
 %define		_prefix		/usr/X11R6
 %define         _htmldir        /usr/share/doc/kde/HTML
@@ -58,8 +58,8 @@ Summary(pl):	Pliki nag³ówkowe do KDE pim
 Summary(uk):	æÁÊÌÉ ÒÏÚÒÏÂËÉ ÄÌÑ kdepim
 Summary(ru):	æÁÊÌÙ ÒÁÚÒÁÂÏÔËÉ ÄÌÑ kdepim
 Group:		X11/Development/Libraries
-Obsoletes:	kdepim-devel
 Provides:	kdepim-devel
+Obsoletes:	kdepim-devel
 
 %description devel
 This package contains header files needed if you wish to build
@@ -94,8 +94,8 @@ Summary:	Alarm
 Summary(pl):	Alarm
 Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
-Obsoletes:	kdepim-kalarm
 Provides:	kdepim-kalarm
+Obsoletes:	kdepim-kalarm
 
 %description kalarm
 Reminder Message Scheduler
@@ -107,9 +107,9 @@ Nastawianie przypominania o zdarzeniach
 Summary:        A communication program between mobile phone and PC
 Summary(pl):    Program do komunikacji miêdzy PC a tel. komórkowym.
 Group:          X11/Applications
+Provides:	kdepim-kandy
 Obsoletes:	kdepim-cellphone
 Obsoletes:	kdepim-kandy
-Provides:	kdepim-kandy
 
 %description kandy
 Kandy provides access to your mobile phone and allows to sync the data
@@ -127,8 +127,8 @@ Requires:	kdenetwork-kroupware-kmail >= %{version}
 Requires:       kdepim-kroupware-knotes = %{version}-%{release}
 Requires:	kdepim-kroupware-kaddressbook = %{version}-%{release}
 Requires:       kdepim-kroupware-korganizer = %{version}-%{release}
-Obsoletes:	kdepim-kaplan
 Provides:	kdepim-kaplan
+Obsoletes:	kdepim-kaplan
 
 %description kaplan
 Kaplan is a PIM application, whcih integrates the knotes, kmail,
@@ -142,8 +142,8 @@ korganizer i kaddressbook.
 Summary:	Personal timetracker
 Summary(pl):	Osobisty czasomierz
 Group:		X11/Applications
-Obsoletes:	kdepim-karm
 Provides:	kdepim-karm
+Obsoletes:	kdepim-karm
 
 %description karm
 KArm - Punjambi language for "work" - tracks time spent on various
@@ -159,8 +159,8 @@ do wystawiania rachunków wielu klientom.
 Summary:        A library to display and manage Gantt diagrams
 Summary(pl):    Biblioteka do rysowania diagramów Gantta zarz±dzania nimi
 Group:          X11/Libraries
-Obsoletes:	kdepim-kgantt
 Provides:	kdepim-kgantt
+Obsoletes:	kdepim-kgantt
 
 %description kgantt
 A library to display and manage Gantt diagrams.
@@ -172,8 +172,8 @@ Biblioteka do rysowania diagramów Gantta zarz±dzania nimi.
 Summary:	Yellow cards
 Summary(pl):	¯ó³te karteczki
 Group:		X11/Applications
-Obsoletes:	kdepim-knotes
 Provides:	kdepim-knotes
+Obsoletes:	kdepim-knotes
 
 %description knotes
 KNotes allows you to place Post-It notes on your desktop. In addition
@@ -190,8 +190,8 @@ komputerów.
 Summary:        A command line ICard tool
 Summary(pl):    Narzêdzie dostêpu do plików kalendarza z linii poleceñ
 Group:          Applications
-Obsoletes:	kdepim-konsolekalendar
 Provides:	kdepim-konsolekalendar
+Obsoletes:	kdepim-konsolekalendar
 
 %description konsolekalendar
 Command line tool for accessing calendar files.
@@ -203,8 +203,8 @@ Narzêdzie dostêpu do plików kalendarza z linii poleceñ.
 Summary:        A complete calendar and scheduling progra
 Summary(pl):    Kalendarz wraz z harmonogramem zadañ
 Group:          X11/Applications
-Obsoletes:	kdepim-korganizer
 Provides:	kdepim-korganizer
+Obsoletes:	kdepim-korganizer
 
 %description korganizer
 A complete calendar and scheduling program, which supports information
@@ -231,10 +231,10 @@ Summary:        A sync tool for palmtops
 Summary(pl):    Narzêdzie do synchronizacji z palmtopami
 Group:          X11/Applications
 Requires:	pilot-link
+Provides:	kdepim-kpilot
 Obsoletes:	kdepim-pilot
 Obsoletes:	kpilot
 Obsoletes:	kdepim-kpilot
-Provides:	kdepim-kpilot
 
 %description kpilot
 Synchronization tool for 3Com Palm Pilots and compatible devices.
@@ -255,8 +255,8 @@ urz±dzeniami.
 Summary:        A library for syncing stuff
 Summary(pl):    Biblioteka do synchronizacji rzeczy
 Group:          X11/Libraries
-Obsoletes:	kdepim-ksync
 Provides:	kdepim-ksync
+Obsoletes:	kdepim-ksync
 
 %description ksync
 libksync is a generic library for syncing collections of data entries
