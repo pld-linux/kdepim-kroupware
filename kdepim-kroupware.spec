@@ -4,21 +4,19 @@
 #	  clear that H (N) is written in lowercase instead uppercase
 #	- Recheck dependencies
 
-%define		_ver		1.0.1
-
 Summary:	Personal Information Management (PIM) for KDE
 Summary(ko):	K ╣╔╫╨е╘е╬ х╞╟Ф - PIM (╟Ёюн а╓╨╦ ╟Э╦╝)
-Summary(pl):	Manadzer informacji osobistej (PIM) dla KDE
+Summary(pl):	Program zarz╠dzaj╠cy informacjami osobistymi (PIM) dla KDE
 Summary(ru):	Персональный планировщик (PIM) для KDE
 Summary(uk):	Персональный планувальник (PIM) для KDE
 Name:		kdepim-kroupware
-Version:	%{_ver}
+Version:	1.0.2
 Release:	1
 License:	GPL
 Vendor:		The KDE Team
 Group:		X11/Applications
 Source0:	http://www.erfrakon.de/projects/kolab/download/kde-kolab-client-%{version}/src/%{name}-%{version}.tar.bz2
-#Source0-MD5:	72709aaeac03f4deecbc0692ccd65e74
+# Source0-md5:	1a60f0a2221b3a43992c5132b2e80a5b
 BuildRequires:	bison
 BuildRequires:	kdelibs-devel >= 3.1.1
 BuildRequires:	perl
@@ -37,45 +35,45 @@ Obsoletes:	kdepim
 %define		no_install_post_chrpath		1
 
 %description
-kdepim is a collection of Personal Information Management (PIM) tools
-for the K Desktop Enviromnent (KDE).
+kdepim-kroupware is a collection of Personal Information Management
+(PIM) tools for the K Desktop Enviromnent (KDE).
 
 %description -l pl
-kdepim jest jest zestawem aplikacji PIM dla K Desktop Enviromnent
-(KDE).
+kdepim-kroupware jest jest zestawem aplikacji PIM dla K Desktop
+Enviromnent (KDE).
 
 %description -l ru
-kdepim - это набор утилит для управления персональной информацией для
-K Desktop Enviromnent (KDE).
+kdepim-kroupware - это набор утилит для управления персональной
+информацией для K Desktop Enviromnent (KDE).
 
 %description -l uk
-kdepim - це наб╕р утил╕т для керування персональною информац╕╓ю для K
-Desktop Enviromnent (KDE).
+kdepim-kroupware - це наб╕р утил╕т для керування персональною
+информац╕╓ю для K Desktop Enviromnent (KDE).
 
 %package devel
-Summary:	Development files for KDE pim
-Summary(pl):	Pliki nagЁСwkowe do KDE pim
-Summary(uk):	Файли розробки для kdepim
-Summary(ru):	Файлы разработки для kdepim
+Summary:	Development files for kdepim-kroupware
+Summary(pl):	Pliki nagЁСwkowe do kdepim-kroupware
+Summary(uk):	Файли розробки для kdepim-kroupware
+Summary(ru):	Файлы разработки для kdepim-kroupware
 Group:		X11/Development/Libraries
 Provides:	kdepim-devel
 Obsoletes:	kdepim-devel
 
 %description devel
 This package contains header files needed if you wish to build
-applications based on kdepim.
+applications based on kdepim-kroupware.
 
 %description devel -l pl
 Pakiet ten zawiera pliki nagЁСwkowe potzrebne do budowy aplikacji
-bazuj╠cych na kdepim.
+bazuj╠cych na kdepim-kroupware.
 
 %description devel -l uk
 Цей пакет м╕стить файли заголовк╕в необх╕дн╕ для побудови програм,
-базованих на kdepim.
+базованих на kdepim-kroupware.
 
 %description devel -l ru
 Этот пакет содержит файлы заголовков необходимые для построения
-программ, основанных на kdepim.
+программ, основанных на kdepim-kroupware.
 
 %package kaddressbook
 Summary:	Address Book
@@ -84,10 +82,10 @@ Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description kaddressbook
-Address Book
+Address Book.
 
 %description kaddressbook -l pl
-Ksi╠©ka adresowa
+Ksi╠©ka adresowa.
 
 %package kalarm
 Summary:	Alarm
@@ -98,14 +96,14 @@ Provides:	kdepim-kalarm
 Obsoletes:	kdepim-kalarm
 
 %description kalarm
-Reminder Message Scheduler
+Reminder message scheduler.
 
 %description kalarm -l pl
-Nastawianie przypominania o zdarzeniach
+Nastawianie przypominania o zdarzeniach.
 
 %package kandy
 Summary:	A communication program between mobile phone and PC
-Summary(pl):	Program do komunikacji miЙdzy PC a tel. komСrkowym.
+Summary(pl):	Program do komunikacji miЙdzy PC a telefonem komСrkowym
 Group:		X11/Applications
 Provides:	kdepim-kandy
 Obsoletes:	kdepim-cellphone
@@ -219,12 +217,12 @@ przemysЁowy (vCalendar).
 %description korganizer -l ru
 полнофункциональная программа календаря и персонального планировщика
 (KOrganizer поддерживает обмен информацией с другими программами
-такого рода через стандартный формат файла vCalendar)
+такого рода через стандартный формат файла vCalendar).
 
 %description korganizer -l uk
 повнофункц╕ональна програма календара та персонального
 планувальника (KOrganizer п╕дтриму╓ обм╕н информац╕╓ю з ╕ншими
-програмами такого роду через стандартний формат файлу vCalendar)
+програмами такого роду через стандартний формат файлу vCalendar).
 
 %package kpilot
 Summary:	A sync tool for palmtops
@@ -245,7 +243,7 @@ urz╠dzeniami.
 
 %description kpilot -l ru
 утилита для синхронизации с 3com Palm Pilots и совместимыми
-с ними устройствами,
+с ними устройствами.
 
 %description kpilot -l uk
 утил╕та для синхрон╕зац╕╖ з 3com Palm Pilots та сум╕сними з
