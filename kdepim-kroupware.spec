@@ -24,6 +24,7 @@ BuildRequires:	kdelibs-devel >= 3.1.1
 BuildRequires:	perl
 BuildRequires:	pilot-link-devel
 BuildRequires:	qt-devel >= 3.1.2
+BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	zlib-devel
 Requires:	kdelibs >= 3.1.1
 Provides:	kdepim
