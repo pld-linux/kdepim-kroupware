@@ -273,12 +273,6 @@ jak np. kalendarze, zak³adki, kontakty, foldery pocztowe itp.
 kde_appsdir="%{_applnkdir}"; export kde_appsdir
 kde_htmldir="%{_htmldir}"; export kde_htmldir
 kde_icondir="%{_pixmapsdir}"; export kde_icondir
-
-for plik in `find ./ -name \*.desktop` ; do
-		echo $plik
-		perl -pi -e "s/\[nb\]/\[no\]/g" $plik
-done
-
 %configure \
 	--enable-final
 
