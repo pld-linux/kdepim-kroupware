@@ -4,7 +4,7 @@
 #	  clear that H (N) is written in lowercase instead uppercase
 #	- Recheck dependencies
 
-%define         _ver		1.0.1
+%define		_ver		1.0.1
 
 Summary:	Personal Information Management (PIM) for KDE
 Summary(ko):	K µ•Ω∫≈©≈æ »Ø∞Ê - PIM (∞≥¿Œ ¡§∫∏ ∞¸∏Æ)
@@ -32,9 +32,9 @@ Obsoletes:	korganizer
 Obsoletes:	kdepim
 
 %define		_prefix		/usr/X11R6
-%define         _htmldir        /usr/share/doc/kde/HTML
+%define		_htmldir	/usr/share/doc/kde/HTML
 
-%define         no_install_post_chrpath         1
+%define		no_install_post_chrpath		1
 
 %description
 kdepim is a collection of Personal Information Management (PIM) tools
@@ -104,9 +104,9 @@ Reminder Message Scheduler
 Nastawianie przypominania o zdarzeniach
 
 %package kandy
-Summary:        A communication program between mobile phone and PC
-Summary(pl):    Program do komunikacji miÍdzy PC a tel. komÛrkowym.
-Group:          X11/Applications
+Summary:	A communication program between mobile phone and PC
+Summary(pl):	Program do komunikacji miÍdzy PC a tel. komÛrkowym.
+Group:		X11/Applications
 Provides:	kdepim-kandy
 Obsoletes:	kdepim-cellphone
 Obsoletes:	kdepim-kandy
@@ -120,13 +120,13 @@ Kandy umoøliwia dostÍp do telefonu komÛrkowego i pozwala na
 synchronizacjÍ danych z telefonu z danymi na PC.
 
 %package kaplan
-Summary:        An integrated PIM application
-Summary(pl):    Zintegrowany PIM
-Group:          X11/Applications
+Summary:	An integrated PIM application
+Summary(pl):	Zintegrowany PIM
+Group:		X11/Applications
 Requires:	kdenetwork-kroupware-kmail >= %{version}
-Requires:       kdepim-kroupware-knotes = %{version}-%{release}
-Requires:	kdepim-kroupware-kaddressbook = %{version}-%{release}
-Requires:       kdepim-kroupware-korganizer = %{version}-%{release}
+Requires:	%{name}-knotes = %{version}-%{release}
+Requires:	%{name}-kaddressbook = %{version}-%{release}
+Requires:	%{name}-korganizer = %{version}-%{release}
 Provides:	kdepim-kaplan
 Obsoletes:	kdepim-kaplan
 
@@ -156,9 +156,9 @@ spÍdzony na rÛønych zajÍciach. Jest przydatny przy obliczaniu godzin
 do wystawiania rachunkÛw wielu klientom.
 
 %package kgantt
-Summary:        A library to display and manage Gantt diagrams
-Summary(pl):    Biblioteka do rysowania diagramÛw Gantta zarz±dzania nimi
-Group:          X11/Libraries
+Summary:	A library to display and manage Gantt diagrams
+Summary(pl):	Biblioteka do rysowania diagramÛw Gantta zarz±dzania nimi
+Group:		X11/Libraries
 Provides:	kdepim-kgantt
 Obsoletes:	kdepim-kgantt
 
@@ -187,9 +187,9 @@ i drukowaÊ notatki, a takøe przyjmowaÊ przeci±ganie nawet ze zdalnych
 komputerÛw.
 
 %package konsolekalendar
-Summary:        A command line ICard tool
-Summary(pl):    NarzÍdzie dostÍpu do plikÛw kalendarza z linii poleceÒ
-Group:          Applications
+Summary:	A command line ICard tool
+Summary(pl):	NarzÍdzie dostÍpu do plikÛw kalendarza z linii poleceÒ
+Group:		Applications
 Provides:	kdepim-konsolekalendar
 Obsoletes:	kdepim-konsolekalendar
 
@@ -200,9 +200,9 @@ Command line tool for accessing calendar files.
 NarzÍdzie dostÍpu do plikÛw kalendarza z linii poleceÒ.
 
 %package korganizer
-Summary:        A complete calendar and scheduling progra
-Summary(pl):    Kalendarz wraz z harmonogramem zadaÒ
-Group:          X11/Applications
+Summary:	A complete calendar and scheduling progra
+Summary(pl):	Kalendarz wraz z harmonogramem zadaÒ
+Group:		X11/Applications
 Provides:	kdepim-korganizer
 Obsoletes:	kdepim-korganizer
 
@@ -227,9 +227,9 @@ przemys≥owy (vCalendar).
 –“œ«“¡Õ¡Õ… ‘¡Àœ«œ “œƒ’ ﬁ≈“≈⁄ ”‘¡Œƒ¡“‘Œ…  ∆œ“Õ¡‘ ∆¡ Ã’ vCalendar)
 
 %package kpilot
-Summary:        A sync tool for palmtops
-Summary(pl):    NarzÍdzie do synchronizacji z palmtopami
-Group:          X11/Applications
+Summary:	A sync tool for palmtops
+Summary(pl):	NarzÍdzie do synchronizacji z palmtopami
+Group:		X11/Applications
 Requires:	pilot-link
 Provides:	kdepim-kpilot
 Obsoletes:	kdepim-pilot
@@ -252,9 +252,9 @@ urz±dzeniami.
 Œ…Õ… –“…”‘“œ—Õ….
 
 %package ksync
-Summary:        A library for syncing stuff
-Summary(pl):    Biblioteka do synchronizacji rzeczy
-Group:          X11/Libraries
+Summary:	A library for syncing stuff
+Summary(pl):	Biblioteka do synchronizacji rzeczy
+Group:		X11/Libraries
 Provides:	kdepim-ksync
 Obsoletes:	kdepim-ksync
 
@@ -296,7 +296,7 @@ install -d $RPM_BUILD_ROOT%{_applnkdir}/Office/PIMs
 	DESTDIR=$RPM_BUILD_ROOT
 cd kaplan
 %{__make} install \
-        DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT
 cd ..
 
 ALD=$RPM_BUILD_ROOT%{_applnkdir}
@@ -308,7 +308,7 @@ bzip2 -dc %{SOURCE1} | tar xf - -C $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc README*
 %{_libdir}/libkdepim.la
@@ -333,7 +333,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/*.so
 %{_libdir}/kde3/*conduit.so
 
-%files kaddressbook 
+%files kaddressbook
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/kabc2mutt
 %attr(755,root,root) %{_bindir}/kaddressbook
@@ -344,7 +344,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_pixmapsdir}/*/*/*/kaddressbook.png
 %{_datadir}/services/kaddressbook_service.desktop
 
-%files kalarm 
+%files kalarm
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/kalarm*
 %attr(755,root,root) %{_bindir}/korgac
@@ -357,13 +357,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_applnkdir}/Utilities/kalarm.desktop
 %{_pixmapsdir}/[!l]*/*/*/kalarm.png
 
-%files kandy 
+%files kandy
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/kandy*
 %{_datadir}/apps/kandy
 %{_applnkdir}/Utilities/kandy.desktop
 
-%files karm 
+%files karm
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/karm
 %{_datadir}/apps/karm
@@ -384,13 +384,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_applnkdir}/Office/PIMs/Kaplan.desktop
 %{_pixmapsdir}/*/*/*/kaplan.png
 
-%files kgantt 
+%files kgantt
 %defattr(644,root,root,755)
 %{_libdir}/libkgantt.la
 %attr(755,root,root) %{_libdir}/libkgantt.so.*
 %{_datadir}/apps/kgantt
 
-%files knotes 
+%files knotes
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/knotes
 %{_datadir}/apps/knotes
@@ -398,11 +398,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_applnkdir}/Utilities/knotes.desktop
 %{_pixmapsdir}/*/*/*/knotes.png
 
-%files konsolekalendar 
+%files konsolekalendar
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/konsolekalendar
 
-%files korganizer 
+%files korganizer
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/korganizer*
 %attr(755,root,root) %{_bindir}/ical2vcal
@@ -417,7 +417,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/kde3/*kabc*
 /usr/X11R6/share/apps/korganizer/*
 
-%files kpilot 
+%files kpilot
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/kpilot*
 %{_libdir}/libkpilot.la
@@ -437,7 +437,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_applnkdir}/Utilities/kpilot*.desktop
 %{_pixmapsdir}/[!l]*/*/*/kpilot*.png
 
-%files ksync 
+%files ksync
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/ksync
 %{_libdir}/libksync.la
