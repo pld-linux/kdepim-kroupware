@@ -13,7 +13,7 @@ Summary(ru):	Персональный планировщик (PIM) для KDE
 Summary(uk):	Персональный планувальник (PIM) для KDE
 Name:		kdepim-kroupware
 Version:	%{_ver}
-Release:	1
+Release:	2
 License:	GPL
 Vendor:		The KDE Team
 Group:		X11/Applications
@@ -31,7 +31,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	korganizer
 Obsoletes:	kdepim
 
-%define		_prefix		/usr/X11R6
+%define		_prefix		/usr
 %define         _htmldir        /usr/share/doc/kde/HTML
 
 %define         no_install_post_chrpath         1
