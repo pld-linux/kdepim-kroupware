@@ -21,7 +21,7 @@ Source0:	http://www.erfrakon.de/projects/kolab/download/kde-kolab-client-%{versi
 #Source0-MD5:	72709aaeac03f4deecbc0692ccd65e74
 BuildRequires:	bison
 BuildRequires:	kdelibs-devel >= 3.1.1
-BuildRequires:	perl
+BuildRequires:	perl-base
 BuildRequires:	pilot-link-devel
 BuildRequires:	qt-devel >= 3.1.2
 BuildRequires:	rpmbuild(macros) >= 1.164
