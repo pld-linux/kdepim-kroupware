@@ -275,7 +275,7 @@ kde_appsdir="%{_applnkdir}"; export kde_appsdir
 kde_htmldir="%{_htmldir}"; export kde_htmldir
 kde_icondir="%{_pixmapsdir}"; export kde_icondir
 %configure \
-	--enable-final
+	--disable-final
 
 %{__make}
 
