@@ -7,10 +7,10 @@
 %define         _ver		1.0.1
 
 Summary:	Personal Information Management (PIM) for KDE
-Summary(ko):	K ╣╔╫╨е╘е╬ х╞╟Ф - PIM (╟Ёюн а╓╨╦ ╟Э╦╝)
-Summary(pl):	Program zarz╠dzaj╠cy informacjami osobistymi (PIM) dla KDE
-Summary(ru):	Персональный планировщик (PIM) для KDE
-Summary(uk):	Персональный планувальник (PIM) для KDE
+Summary(ko.UTF-8):   K К█╟Л┼╓М│╛М┐▒ М≥≤Й╡╫ - PIM (Й╟°Л²╦ Л═∙КЁ╢ Й╢─К╕╛)
+Summary(pl.UTF-8):   Program zarzд┘dzajд┘cy informacjami osobistymi (PIM) dla KDE
+Summary(ru.UTF-8):   п÷п╣я─я│п╬п╫п╟п╩я▄п╫я▀п╧ п©п╩п╟п╫п╦я─п╬п╡я┴п╦п╨ (PIM) п╢п╩я▐ KDE
+Summary(uk.UTF-8):   п÷п╣я─я│п╬п╫п╟п╩я▄п╫я▀п╧ п©п╩п╟п╫я┐п╡п╟п╩я▄п╫п╦п╨ (PIM) п╢п╩я▐ KDE
 Name:		kdepim-kroupware
 Version:	%{_ver}
 Release:	2
@@ -41,23 +41,23 @@ Obsoletes:	kdepim
 kdepim-kroupware is a collection of Personal Information Management
 (PIM) tools for the K Desktop Enviromnent (KDE).
 
-%description -l pl
+%description -l pl.UTF-8
 kdepim-kroupware jest jest zestawem aplikacji PIM dla K Desktop
 Enviromnent (KDE).
 
-%description -l ru
-kdepim-kroupware - это набор утилит для управления персональной
-информацией для K Desktop Enviromnent (KDE).
+%description -l ru.UTF-8
+kdepim-kroupware - я█я┌п╬ п╫п╟п╠п╬я─ я┐я┌п╦п╩п╦я┌ п╢п╩я▐ я┐п©я─п╟п╡п╩п╣п╫п╦я▐ п©п╣я─я│п╬п╫п╟п╩я▄п╫п╬п╧
+п╦п╫я└п╬я─п╪п╟я├п╦п╣п╧ п╢п╩я▐ K Desktop Enviromnent (KDE).
 
-%description -l uk
-kdepim-kroupware - це наб╕р утил╕т для керування персональною
-информац╕╓ю для K Desktop Enviromnent (KDE).
+%description -l uk.UTF-8
+kdepim-kroupware - я├п╣ п╫п╟п╠я√я─ я┐я┌п╦п╩я√я┌ п╢п╩я▐ п╨п╣я─я┐п╡п╟п╫п╫я▐ п©п╣я─я│п╬п╫п╟п╩я▄п╫п╬я▌
+п╦п╫я└п╬я─п╪п╟я├я√я■я▌ п╢п╩я▐ K Desktop Enviromnent (KDE).
 
 %package devel
 Summary:	Development files for kdepim-kroupware
-Summary(pl):	Pliki nagЁСwkowe do kdepim-kroupware
-Summary(uk):	Файли розробки для kdepim-kroupware
-Summary(ru):	Файлы разработки для kdepim-kroupware
+Summary(pl.UTF-8):   Pliki nagе┌цЁwkowe do kdepim-kroupware
+Summary(uk.UTF-8):   п╓п╟п╧п╩п╦ я─п╬п╥я─п╬п╠п╨п╦ п╢п╩я▐ kdepim-kroupware
+Summary(ru.UTF-8):   п╓п╟п╧п╩я▀ я─п╟п╥я─п╟п╠п╬я┌п╨п╦ п╢п╩я▐ kdepim-kroupware
 Group:		X11/Development/Libraries
 Provides:	kdepim-devel
 Obsoletes:	kdepim-devel
@@ -66,33 +66,33 @@ Obsoletes:	kdepim-devel
 This package contains header files needed if you wish to build
 applications based on kdepim-kroupware.
 
-%description devel -l pl
-Pakiet ten zawiera pliki nagЁСwkowe potrzebne do budowy aplikacji
+%description devel -l pl.UTF-8
+Pakiet ten zawiera pliki nagе┌цЁwkowe potrzebne do budowy aplikacji
 opartych na kdepim-kroupware.
 
-%description devel -l uk
-Цей пакет м╕стить файли заголовк╕в необх╕дн╕ для побудови програм,
-базованих на kdepim-kroupware.
+%description devel -l uk.UTF-8
+п╕п╣п╧ п©п╟п╨п╣я┌ п╪я√я│я┌п╦я┌я▄ я└п╟п╧п╩п╦ п╥п╟пЁп╬п╩п╬п╡п╨я√п╡ п╫п╣п╬п╠я┘я√п╢п╫я√ п╢п╩я▐ п©п╬п╠я┐п╢п╬п╡п╦ п©я─п╬пЁя─п╟п╪,
+п╠п╟п╥п╬п╡п╟п╫п╦я┘ п╫п╟ kdepim-kroupware.
 
-%description devel -l ru
-Этот пакет содержит файлы заголовков необходимые для построения
-программ, основанных на kdepim-kroupware.
+%description devel -l ru.UTF-8
+п╜я┌п╬я┌ п©п╟п╨п╣я┌ я│п╬п╢п╣я─п╤п╦я┌ я└п╟п╧п╩я▀ п╥п╟пЁп╬п╩п╬п╡п╨п╬п╡ п╫п╣п╬п╠я┘п╬п╢п╦п╪я▀п╣ п╢п╩я▐ п©п╬я│я┌я─п╬п╣п╫п╦я▐
+п©я─п╬пЁя─п╟п╪п╪, п╬я│п╫п╬п╡п╟п╫п╫я▀я┘ п╫п╟ kdepim-kroupware.
 
 %package kaddressbook
 Summary:	Address Book
-Summary(pl):	Ksi╠©ka adresowa
+Summary(pl.UTF-8):   Ksiд┘е╪ka adresowa
 Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description kaddressbook
 Address Book
 
-%description kaddressbook -l pl
-Ksi╠©ka adresowa
+%description kaddressbook -l pl.UTF-8
+Ksiд┘е╪ka adresowa
 
 %package kalarm
 Summary:	Alarm
-Summary(pl):	Alarm
+Summary(pl.UTF-8):   Alarm
 Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 Provides:	kdepim-kalarm
@@ -101,12 +101,12 @@ Obsoletes:	kdepim-kalarm
 %description kalarm
 Reminder Message Scheduler
 
-%description kalarm -l pl
+%description kalarm -l pl.UTF-8
 Nastawianie przypominania o zdarzeniach
 
 %package kandy
 Summary:	A communication program between mobile phone and PC
-Summary(pl):	Program do komunikacji miЙdzy PC a tel. komСrkowym.
+Summary(pl.UTF-8):   Program do komunikacji miд≥dzy PC a tel. komцЁrkowym.
 Group:		X11/Applications
 Provides:	kdepim-kandy
 Obsoletes:	kdepim-cellphone
@@ -116,13 +116,13 @@ Obsoletes:	kdepim-kandy
 Kandy provides access to your mobile phone and allows to sync the data
 on the phone with the data on your desktop computer.
 
-%description kandy -l pl
-Kandy umo©liwia dostЙp do telefonu komСrkowego i pozwala na
-synchronizacjЙ danych z telefonu z danymi na PC.
+%description kandy -l pl.UTF-8
+Kandy umoе╪liwia dostд≥p do telefonu komцЁrkowego i pozwala na
+synchronizacjд≥ danych z telefonu z danymi na PC.
 
 %package kaplan
 Summary:	An integrated PIM application
-Summary(pl):	Zintegrowany PIM
+Summary(pl.UTF-8):   Zintegrowany PIM
 Group:		X11/Applications
 Requires:	kdenetwork-kroupware-kmail >= %{version}
 Requires:	kdepim-kroupware-knotes = %{version}-%{release}
@@ -135,13 +135,13 @@ Obsoletes:	kdepim-kaplan
 Kaplan is a PIM application, whcih integrates the knotes, kmail,
 korganizer, kaddressbook parts.
 
-%description kaplan -l pl
-Kaplan jest aplikacj╠ PIM integruj╠c╠ funkcjonalno╤Ф knotes, kmail,
+%description kaplan -l pl.UTF-8
+Kaplan jest aplikacjд┘ PIM integrujд┘cд┘ funkcjonalnoе⌡д┤ knotes, kmail,
 korganizer i kaddressbook.
 
 %package karm
 Summary:	Personal timetracker
-Summary(pl):	Osobisty czasomierz
+Summary(pl.UTF-8):   Osobisty czasomierz
 Group:		X11/Applications
 Provides:	kdepim-karm
 Obsoletes:	kdepim-karm
@@ -151,14 +151,14 @@ KArm - Punjambi language for "work" - tracks time spent on various
 tasks. It is useful for tracking hours to be billed to different
 clients.
 
-%description karm -l pl
-KArm (nazwa pochodzi od sЁowa "praca" w jЙzyku punjambi) ╤ledzi czas
-spЙdzony na rС©nych zajЙciach. Jest przydatny przy obliczaniu godzin
-do wystawiania rachunkСw wielu klientom.
+%description karm -l pl.UTF-8
+KArm (nazwa pochodzi od sе┌owa "praca" w jд≥zyku punjambi) е⌡ledzi czas
+spд≥dzony na rцЁе╪nych zajд≥ciach. Jest przydatny przy obliczaniu godzin
+do wystawiania rachunkцЁw wielu klientom.
 
 %package kgantt
 Summary:	A library to display and manage Gantt diagrams
-Summary(pl):	Biblioteka do rysowania diagramСw Gantta zarz╠dzania nimi
+Summary(pl.UTF-8):   Biblioteka do rysowania diagramцЁw Gantta zarzд┘dzania nimi
 Group:		X11/Libraries
 Provides:	kdepim-kgantt
 Obsoletes:	kdepim-kgantt
@@ -166,12 +166,12 @@ Obsoletes:	kdepim-kgantt
 %description kgantt
 A library to display and manage Gantt diagrams.
 
-%description kgantt -l pl
-Biblioteka do rysowania diagramСw Gantta zarz╠dzania nimi.
+%description kgantt -l pl.UTF-8
+Biblioteka do rysowania diagramцЁw Gantta zarzд┘dzania nimi.
 
 %package knotes
 Summary:	Yellow cards
-Summary(pl):	╞СЁte karteczki
+Summary(pl.UTF-8):   е╩цЁе┌te karteczki
 Group:		X11/Applications
 Provides:	kdepim-knotes
 Obsoletes:	kdepim-knotes
@@ -181,15 +181,15 @@ KNotes allows you to place Post-It notes on your desktop. In addition
 to serving as a reminder, KNotes can mail and print your notes, and
 accept drag and drop even from remote sites.
 
-%description knotes -l pl
-KNotes pozwala umieszczaФ na desktopie notatki z opcj╠ wysyЁania.
-Dodatkowo, aby mСc sЁu©yФ za przypominajkЙ, KNotes mo©e wysyЁaФ pocztЙ
-i drukowaФ notatki, a tak©e przyjmowaФ przeci╠ganie nawet ze zdalnych
-komputerСw.
+%description knotes -l pl.UTF-8
+KNotes pozwala umieszczaд┤ na desktopie notatki z opcjд┘ wysyе┌ania.
+Dodatkowo, aby mцЁc sе┌uе╪yд┤ za przypominajkд≥, KNotes moе╪e wysyе┌aд┤ pocztд≥
+i drukowaд┤ notatki, a takе╪e przyjmowaд┤ przeciд┘ganie nawet ze zdalnych
+komputerцЁw.
 
 %package konsolekalendar
 Summary:	A command line ICard tool
-Summary(pl):	NarzЙdzie dostЙpu do plikСw kalendarza z linii poleceЯ
+Summary(pl.UTF-8):   Narzд≥dzie dostд≥pu do plikцЁw kalendarza z linii poleceе└
 Group:		Applications
 Provides:	kdepim-konsolekalendar
 Obsoletes:	kdepim-konsolekalendar
@@ -197,12 +197,12 @@ Obsoletes:	kdepim-konsolekalendar
 %description konsolekalendar
 Command line tool for accessing calendar files.
 
-%description konsolekalendar -l pl
-NarzЙdzie dostЙpu do plikСw kalendarza z linii poleceЯ.
+%description konsolekalendar -l pl.UTF-8
+Narzд≥dzie dostд≥pu do plikцЁw kalendarza z linii poleceе└.
 
 %package korganizer
 Summary:	A complete calendar and scheduling progra
-Summary(pl):	Kalendarz wraz z harmonogramem zadaЯ
+Summary(pl.UTF-8):   Kalendarz wraz z harmonogramem zadaе└
 Group:		X11/Applications
 Provides:	kdepim-korganizer
 Obsoletes:	kdepim-korganizer
@@ -212,24 +212,24 @@ A complete calendar and scheduling program, which supports information
 interchange with other calendar applications through the industry
 standard vCalendar file format.
 
-%description korganizer -l pl
-Kalendarz wraz z harmonogramem zadaЯ (KOrganizer), ktСry wspiera
-wymianЙ informacji z innymi tego typu aplikacjami poprzez standard
-przemysЁowy (vCalendar).
+%description korganizer -l pl.UTF-8
+Kalendarz wraz z harmonogramem zadaе└ (KOrganizer), ktцЁry wspiera
+wymianд≥ informacji z innymi tego typu aplikacjami poprzez standard
+przemysе┌owy (vCalendar).
 
-%description korganizer -l ru
-полнофункциональная программа календаря и персонального планировщика
-(KOrganizer поддерживает обмен информацией с другими программами
-такого рода через стандартный формат файла vCalendar)
+%description korganizer -l ru.UTF-8
+п©п╬п╩п╫п╬я└я┐п╫п╨я├п╦п╬п╫п╟п╩я▄п╫п╟я▐ п©я─п╬пЁя─п╟п╪п╪п╟ п╨п╟п╩п╣п╫п╢п╟я─я▐ п╦ п©п╣я─я│п╬п╫п╟п╩я▄п╫п╬пЁп╬ п©п╩п╟п╫п╦я─п╬п╡я┴п╦п╨п╟
+(KOrganizer п©п╬п╢п╢п╣я─п╤п╦п╡п╟п╣я┌ п╬п╠п╪п╣п╫ п╦п╫я└п╬я─п╪п╟я├п╦п╣п╧ я│ п╢я─я┐пЁп╦п╪п╦ п©я─п╬пЁя─п╟п╪п╪п╟п╪п╦
+я┌п╟п╨п╬пЁп╬ я─п╬п╢п╟ я┤п╣я─п╣п╥ я│я┌п╟п╫п╢п╟я─я┌п╫я▀п╧ я└п╬я─п╪п╟я┌ я└п╟п╧п╩п╟ vCalendar)
 
-%description korganizer -l uk
-повнофункц╕ональна програма календара та персонального
-планувальника (KOrganizer п╕дтриму╓ обм╕н информац╕╓ю з ╕ншими
-програмами такого роду через стандартний формат файлу vCalendar)
+%description korganizer -l uk.UTF-8
+п©п╬п╡п╫п╬я└я┐п╫п╨я├я√п╬п╫п╟п╩я▄п╫п╟ п©я─п╬пЁя─п╟п╪п╟ п╨п╟п╩п╣п╫п╢п╟я─п╟ я┌п╟ п©п╣я─я│п╬п╫п╟п╩я▄п╫п╬пЁп╬
+п©п╩п╟п╫я┐п╡п╟п╩я▄п╫п╦п╨п╟ (KOrganizer п©я√п╢я┌я─п╦п╪я┐я■ п╬п╠п╪я√п╫ п╦п╫я└п╬я─п╪п╟я├я√я■я▌ п╥ я√п╫я┬п╦п╪п╦
+п©я─п╬пЁя─п╟п╪п╟п╪п╦ я┌п╟п╨п╬пЁп╬ я─п╬п╢я┐ я┤п╣я─п╣п╥ я│я┌п╟п╫п╢п╟я─я┌п╫п╦п╧ я└п╬я─п╪п╟я┌ я└п╟п╧п╩я┐ vCalendar)
 
 %package kpilot
 Summary:	A sync tool for palmtops
-Summary(pl):	NarzЙdzie do synchronizacji z palmtopami
+Summary(pl.UTF-8):   Narzд≥dzie do synchronizacji z palmtopami
 Group:		X11/Applications
 Requires:	pilot-link
 Provides:	kdepim-kpilot
@@ -240,21 +240,21 @@ Obsoletes:	kdepim-kpilot
 %description kpilot
 Synchronization tool for 3Com Palm Pilots and compatible devices.
 
-%description kpilot -l pl
-NarzЙdzie do synchronizacji z 3Com Palm Pilotem i zgodnymi
-urz╠dzeniami.
+%description kpilot -l pl.UTF-8
+Narzд≥dzie do synchronizacji z 3Com Palm Pilotem i zgodnymi
+urzд┘dzeniami.
 
-%description kpilot -l ru
-утилита для синхронизации с 3com Palm Pilots и совместимыми
-с ними устройствами,
+%description kpilot -l ru.UTF-8
+я┐я┌п╦п╩п╦я┌п╟ п╢п╩я▐ я│п╦п╫я┘я─п╬п╫п╦п╥п╟я├п╦п╦ я│ 3com Palm Pilots п╦ я│п╬п╡п╪п╣я│я┌п╦п╪я▀п╪п╦
+я│ п╫п╦п╪п╦ я┐я│я┌я─п╬п╧я│я┌п╡п╟п╪п╦,
 
-%description kpilot -l uk
-утил╕та для синхрон╕зац╕╖ з 3com Palm Pilots та сум╕сними з
-ними пристроями.
+%description kpilot -l uk.UTF-8
+я┐я┌п╦п╩я√я┌п╟ п╢п╩я▐ я│п╦п╫я┘я─п╬п╫я√п╥п╟я├я√я≈ п╥ 3com Palm Pilots я┌п╟ я│я┐п╪я√я│п╫п╦п╪п╦ п╥
+п╫п╦п╪п╦ п©я─п╦я│я┌я─п╬я▐п╪п╦.
 
 %package ksync
 Summary:	A library for syncing stuff
-Summary(pl):	Biblioteka do synchronizacji rzeczy
+Summary(pl.UTF-8):   Biblioteka do synchronizacji rzeczy
 Group:		X11/Libraries
 Provides:	kdepim-ksync
 Obsoletes:	kdepim-ksync
@@ -263,9 +263,9 @@ Obsoletes:	kdepim-ksync
 libksync is a generic library for syncing collections of data entries
 like calenders, bookmarks, contacts, mail folders etc.
 
-%description ksync -l pl
-libksync jest standardow╠ bibliotek╠ do synchronizacji zbiorСw danych
-jak np. kalendarze, zakЁadki, kontakty, foldery pocztowe itp.
+%description ksync -l pl.UTF-8
+libksync jest standardowд┘ bibliotekд┘ do synchronizacji zbiorцЁw danych
+jak np. kalendarze, zakе┌adki, kontakty, foldery pocztowe itp.
 
 %prep
 %setup -q
