@@ -7,10 +7,10 @@
 %define         _ver		1.0.1
 
 Summary:	Personal Information Management (PIM) for KDE
-Summary(ko.UTF-8):   K 데스크탑 환경 - PIM (개인 정보 관리)
-Summary(pl.UTF-8):   Program zarządzający informacjami osobistymi (PIM) dla KDE
-Summary(ru.UTF-8):   Персональный планировщик (PIM) для KDE
-Summary(uk.UTF-8):   Персональный планувальник (PIM) для KDE
+Summary(ko.UTF-8):	K 데스크탑 환경 - PIM (개인 정보 관리)
+Summary(pl.UTF-8):	Program zarządzający informacjami osobistymi (PIM) dla KDE
+Summary(ru.UTF-8):	Персональный планировщик (PIM) для KDE
+Summary(uk.UTF-8):	Персональный планувальник (PIM) для KDE
 Name:		kdepim-kroupware
 Version:	%{_ver}
 Release:	2
@@ -55,9 +55,9 @@ kdepim-kroupware - це набір утиліт для керування пер
 
 %package devel
 Summary:	Development files for kdepim-kroupware
-Summary(pl.UTF-8):   Pliki nagłówkowe do kdepim-kroupware
-Summary(uk.UTF-8):   Файли розробки для kdepim-kroupware
-Summary(ru.UTF-8):   Файлы разработки для kdepim-kroupware
+Summary(pl.UTF-8):	Pliki nagłówkowe do kdepim-kroupware
+Summary(uk.UTF-8):	Файли розробки для kdepim-kroupware
+Summary(ru.UTF-8):	Файлы разработки для kdepim-kroupware
 Group:		X11/Development/Libraries
 Provides:	kdepim-devel
 Obsoletes:	kdepim-devel
@@ -80,7 +80,7 @@ opartych na kdepim-kroupware.
 
 %package kaddressbook
 Summary:	Address Book
-Summary(pl.UTF-8):   Książka adresowa
+Summary(pl.UTF-8):	Książka adresowa
 Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
@@ -92,7 +92,7 @@ Książka adresowa
 
 %package kalarm
 Summary:	Alarm
-Summary(pl.UTF-8):   Alarm
+Summary(pl.UTF-8):	Alarm
 Group:		X11/Applications
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 Provides:	kdepim-kalarm
@@ -106,7 +106,7 @@ Nastawianie przypominania o zdarzeniach
 
 %package kandy
 Summary:	A communication program between mobile phone and PC
-Summary(pl.UTF-8):   Program do komunikacji między PC a tel. komórkowym.
+Summary(pl.UTF-8):	Program do komunikacji między PC a tel. komórkowym.
 Group:		X11/Applications
 Provides:	kdepim-kandy
 Obsoletes:	kdepim-cellphone
@@ -122,7 +122,7 @@ synchronizację danych z telefonu z danymi na PC.
 
 %package kaplan
 Summary:	An integrated PIM application
-Summary(pl.UTF-8):   Zintegrowany PIM
+Summary(pl.UTF-8):	Zintegrowany PIM
 Group:		X11/Applications
 Requires:	kdenetwork-kroupware-kmail >= %{version}
 Requires:	kdepim-kroupware-knotes = %{version}-%{release}
@@ -141,7 +141,7 @@ korganizer i kaddressbook.
 
 %package karm
 Summary:	Personal timetracker
-Summary(pl.UTF-8):   Osobisty czasomierz
+Summary(pl.UTF-8):	Osobisty czasomierz
 Group:		X11/Applications
 Provides:	kdepim-karm
 Obsoletes:	kdepim-karm
@@ -158,7 +158,7 @@ do wystawiania rachunków wielu klientom.
 
 %package kgantt
 Summary:	A library to display and manage Gantt diagrams
-Summary(pl.UTF-8):   Biblioteka do rysowania diagramów Gantta zarządzania nimi
+Summary(pl.UTF-8):	Biblioteka do rysowania diagramów Gantta zarządzania nimi
 Group:		X11/Libraries
 Provides:	kdepim-kgantt
 Obsoletes:	kdepim-kgantt
@@ -171,7 +171,7 @@ Biblioteka do rysowania diagramów Gantta zarządzania nimi.
 
 %package knotes
 Summary:	Yellow cards
-Summary(pl.UTF-8):   Żółte karteczki
+Summary(pl.UTF-8):	Żółte karteczki
 Group:		X11/Applications
 Provides:	kdepim-knotes
 Obsoletes:	kdepim-knotes
@@ -189,7 +189,7 @@ komputerów.
 
 %package konsolekalendar
 Summary:	A command line ICard tool
-Summary(pl.UTF-8):   Narzędzie dostępu do plików kalendarza z linii poleceń
+Summary(pl.UTF-8):	Narzędzie dostępu do plików kalendarza z linii poleceń
 Group:		Applications
 Provides:	kdepim-konsolekalendar
 Obsoletes:	kdepim-konsolekalendar
@@ -202,7 +202,7 @@ Narzędzie dostępu do plików kalendarza z linii poleceń.
 
 %package korganizer
 Summary:	A complete calendar and scheduling progra
-Summary(pl.UTF-8):   Kalendarz wraz z harmonogramem zadań
+Summary(pl.UTF-8):	Kalendarz wraz z harmonogramem zadań
 Group:		X11/Applications
 Provides:	kdepim-korganizer
 Obsoletes:	kdepim-korganizer
@@ -229,7 +229,7 @@ przemysłowy (vCalendar).
 
 %package kpilot
 Summary:	A sync tool for palmtops
-Summary(pl.UTF-8):   Narzędzie do synchronizacji z palmtopami
+Summary(pl.UTF-8):	Narzędzie do synchronizacji z palmtopami
 Group:		X11/Applications
 Requires:	pilot-link
 Provides:	kdepim-kpilot
@@ -254,7 +254,7 @@ urządzeniami.
 
 %package ksync
 Summary:	A library for syncing stuff
-Summary(pl.UTF-8):   Biblioteka do synchronizacji rzeczy
+Summary(pl.UTF-8):	Biblioteka do synchronizacji rzeczy
 Group:		X11/Libraries
 Provides:	kdepim-ksync
 Obsoletes:	kdepim-ksync
