@@ -23,7 +23,7 @@ BuildRequires:	bison
 BuildRequires:	kdelibs-devel >= 3.1.1
 BuildRequires:	perl-base
 BuildRequires:	pilot-link-devel
-BuildRequires:	qt-devel >= 3.1.2
+BuildRequires:	qt-devel >= 6:3.1.2
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	zlib-devel
 Requires:	kdelibs >= 3.1.1
